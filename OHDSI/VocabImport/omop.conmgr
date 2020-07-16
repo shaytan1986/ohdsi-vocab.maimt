@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="omop"
+  DTS:DTSID="{040F793D-4287-4613-AFC1-B54ED4593CDA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost\lemur;User ID=ohdsi_etl;Initial Catalog=omop;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAovQXGYgZDkOKc0Yck2UWRwAAAAACAAAAAAAQZgAAAAEAACAAAAApCMZ8GDmoLVZOApyueecwPW4e6bdKJOB2FHUNW/Ga9QAAAAAOgAAAAAIAACAAAABBcrFwgYjqAUR1R5D3E0M5dOHvn9QwePO5ex2zU6Yj2YAAAAB4LqTcosQyeosHi3saaVk1uY7k4VCHdyiazZ4vuEgtsMMtc4U3qHsjlXF7iHuECfDoYPeQaiUT40D+zbWTz2jwb4L8RJuvSKZq/rebW7NRumaFoGHBMjxuoljeeRps6Y+H78KnetImYW7UQ61VZL4TXjbC3xy822HxXoEF0MFCukAAAADMem8QZOkjyNv2jhdIW03+xTnwo/nBFnKHhTDDfFsbTWxzgkfV9mVPqX3mqENwf01uHDy7CSz3DKLSxKidl9oe</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
